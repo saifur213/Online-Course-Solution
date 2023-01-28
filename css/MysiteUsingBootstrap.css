@@ -1,4 +1,6 @@
 *{margin:0;padding:0}
+body{font-family:arial;font-size:15px;line-height:25px;color:#333}
+h1,h2,h3,h4,h5,h6{font-family:arial black}
 img{width:100%}
 header{background: #fbfcfe;border-bottom:2px solid black}
 #CustomHeader{}
@@ -55,6 +57,10 @@ div#innerBlock {
 #innerBlock:hover{transform:translatey(-7px);transition:0.5s}
 
 
+
+
+
+
 footer{background:#000000cf;padding:40px;color:#ffffffbd}
 #footerSection{border-bottom:2px solid #0902025c}
 #footerBlock{margin-bottom:20px;}
@@ -72,3 +78,76 @@ footer{background:#000000cf;padding:40px;color:#ffffffbd}
     line-height: 28px;
 }
 #addressInfo{text-align:center;margin-top:7px}
+
+
+
+
+/* --------------------------------------------------------- */
+
+
+  #service_block{background: #ddddddd6;
+                 width: 335px;
+                padding: 15px;
+                overflow:hidden;
+                line-height: 20px;
+                display: inline-block;
+                border: 1px solid #ddd;
+                 border-radius:3px;
+                 margin:10px;
+                transition:1s;
+                 animation-name:animat;
+                 animation-duration:3s;
+                 box-shadow: 5px 5px 5px 3px black;
+                 }
+  
+
+  #left_icon{
+        width:70px;
+        font-size:50px;
+        float:left;
+        margin-top: 10px;	
+         color: orange;		 
+       }
+   #right_content{
+         width:250px;
+         float:right;
+         }
+    #left_icon,#right_content{display:inline-block}
+   
+   #right_content h2{margin-bottom:10px}
+   #right_content p{font-size:15px}
+
+   #all_blocks{
+   width:1200px;
+   margin:auto;
+   padding: 40px;
+   overflow:hidden;
+   
+   
+   }
+
+  #service_section	{background:#313030;}
+                   
+ #service_block:hover{background:transparent;transform:scale(0.9);cursor:pointer;color:white}
+ #service_block:hover i{color:red;transform:scale(1.3);transition:2s}
+ #service_block:hover h2{transform:scale(1.3);transition:1s}
+ @keyframes animat{
+        from{transform:scale(0.1)} 
+        to{transform:scale(1)}
+        
+ }
+ 
+#about_image{width:400px;float:left;border:4px solid white;    box-shadow: 4px 7px 8px -1px black;border-radius:10px;}
+#section_title{text-align: center;
+    margin-bottom: 42px;
+    font-size: 50px;
+    color: #a9711f;
+    text-shadow: 5px 5px 5px black;
+   padding-top: 30px;}
+#about_content{width:700px;float:right;padding-left: 40px;}
+
+#about_section{    margin-bottom: 50px;}
+#about_content h3{margin-bottom:15px;border-bottom:2px solid gray}
+  #about_content p{color:gray}
+ #about_image:hover{transform:translatey(-15px);transition:1s;border:2px solid blue;border-radius:10px} 
+  
